@@ -1,0 +1,82 @@
+[
+  {
+    "id": "real_01", "category": "real", "domain": "CRM",
+    "prompt": "Build a CRM with contacts, deals, companies, and activity logs. Sales reps can manage their own deals and contacts. Managers can view all deals and run reports. Admins manage users and system settings."
+  },
+  {
+    "id": "real_02", "category": "real", "domain": "E-commerce",
+    "prompt": "E-commerce platform with products, orders, customers, inventory, and categories. Admins manage everything. Customers browse, add to cart, and checkout. Warehouse staff update inventory. Finance views revenue reports."
+  },
+  {
+    "id": "real_03", "category": "real", "domain": "LMS",
+    "prompt": "Learning management system with courses, lessons, quizzes, students, and instructors. Instructors create and manage their own courses. Students enroll, complete lessons, and take quizzes. Admins manage all users and view analytics."
+  },
+  {
+    "id": "real_04", "category": "real", "domain": "Project Management",
+    "prompt": "Project management tool with projects, tasks, sprints, milestones, and team members. Project managers create projects and assign tasks. Developers update task status and log time. Viewers can only read project data."
+  },
+  {
+    "id": "real_05", "category": "real", "domain": "HRMS",
+    "prompt": "HR management system with employees, departments, leave requests, performance reviews, and payroll. HR managers manage all employees and approve leave. Employees submit leave requests and view their own payslips. Finance processes payroll."
+  },
+  {
+    "id": "real_06", "category": "real", "domain": "Booking System",
+    "prompt": "Appointment booking system for a medical clinic with patients, doctors, appointments, and medical records. Patients book and cancel appointments and view their own records. Doctors view and update their patients records. Receptionists manage all appointments."
+  },
+  {
+    "id": "real_07", "category": "real", "domain": "Inventory System",
+    "prompt": "Warehouse inventory system with products, suppliers, stock movements, purchase orders, and warehouses. Warehouse managers approve purchase orders. Staff record stock movements. Procurement creates orders. Finance views all financial data."
+  },
+  {
+    "id": "real_08", "category": "real", "domain": "Healthcare Portal",
+    "prompt": "Healthcare portal with patients, doctors, prescriptions, lab results, and insurance claims. Doctors create prescriptions and view lab results. Patients view their own records. Lab technicians upload results. Insurance processors handle claims."
+  },
+  {
+    "id": "real_09", "category": "real", "domain": "SaaS Dashboard",
+    "prompt": "SaaS analytics dashboard with organizations, workspaces, users, metrics, and reports. Org admins manage workspaces and billing. Workspace admins manage members. Analysts create and view reports. Viewers can only read dashboards."
+  },
+  {
+    "id": "real_10", "category": "real", "domain": "Helpdesk",
+    "prompt": "Customer helpdesk system with tickets, customers, agents, teams, and knowledge base articles. Customers create tickets and track status. Agents manage and resolve tickets. Team leads assign tickets and view team performance. Admins manage agents and settings."
+  },
+  {
+    "id": "edge_01", "category": "edge", "domain": "Vague",
+    "prompt": "Build me an app."
+  },
+  {
+    "id": "edge_02", "category": "edge", "domain": "Contradictory roles",
+    "prompt": "I need a system where users can do things and admins can do more things but also sometimes users can do admin things if the admin says so but not always."
+  },
+  {
+    "id": "edge_03", "category": "edge", "domain": "Scope creep",
+    "prompt": "Social network with posts, comments, likes, followers, stories, reels, messages, groups, events, marketplace, jobs, ads, pages, live streaming, and a real-time AI recommendation engine."
+  },
+  {
+    "id": "edge_04", "category": "edge", "domain": "No entities",
+    "prompt": "App with no users."
+  },
+  {
+    "id": "edge_05", "category": "edge", "domain": "Contradictory permissions",
+    "prompt": "Medical records system where doctors can see everything but also patients can see everything but also nobody can see anything without a court order except in emergencies."
+  },
+  {
+    "id": "edge_06", "category": "edge", "domain": "Minimal",
+    "prompt": "Todo app."
+  },
+  {
+    "id": "edge_07", "category": "edge", "domain": "Duplicate roles",
+    "prompt": "A system where the admin is also a user but not really an admin in some cases, and there is a super admin who is different from the admin but does the same things, and a mega admin above them all."
+  },
+  {
+    "id": "edge_08", "category": "edge", "domain": "Multiple platforms",
+    "prompt": "Build an app exactly like Uber but also like Airbnb and also like Amazon all in one with blockchain payments and AR features."
+  },
+  {
+    "id": "edge_09", "category": "edge", "domain": "Realistic edge case",
+    "prompt": "Expense tracking app where employees submit expenses, managers approve them, finance processes payment, auditors can review everything but change nothing, and executives see summary dashboards only."
+  },
+  {
+    "id": "edge_10", "category": "edge", "domain": "Gibberish",
+    "prompt": "???"
+  }
+]
