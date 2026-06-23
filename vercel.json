@@ -1,14 +1,8 @@
 {
-  "builds": [
+  "rewrites": [
     {
-      "src": "nl2app_deploy/nl2app/app.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "nl2app_deploy/nl2app/app.py"
+      "source": "/(.*)",
+      "destination": "nl2app_deploy/nl2app/app.py"
     }
   ]
 }
