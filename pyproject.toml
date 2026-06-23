@@ -1,5 +1,5 @@
 [tool.vercel]
-entrypoint = "nl2app_deploy/nl2app/app.py"
+entrypoint = "nl2app_deploy.nl2app.app:app"
 
 [project]
 name = "nl2app-compiler"
