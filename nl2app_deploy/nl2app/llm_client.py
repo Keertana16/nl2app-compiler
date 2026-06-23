@@ -20,8 +20,16 @@ from openai import OpenAI
 
 T = TypeVar("T", bound=BaseModel)
 
+# Use environment variable for safety. Do not hardcode keys.
+api_key = os.environ.get("GROQ_API_KEY")
+
+if not api_key:
+    # Set a dummy key if none provided to avoid OpenAI init crash,
+    # but the actual calls will fail until a key is provided.
+    api_key = "PLEASE_SET_GROQ_API_KEY"
+
 client = OpenAI(
-    api_key=os.environ.get("GROQ_API_KEY"),
+    api_key=api_key,
     base_url="https://api.groq.com/openai/v1",
 )
 
