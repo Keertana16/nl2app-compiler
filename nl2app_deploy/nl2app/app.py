@@ -10,6 +10,12 @@ GET  /docs      — FastAPI auto-generated API documentation
 import json
 import io
 import zipfile
+import os
+import sys
+
+# Ensure local imports work on Vercel
+sys.path.append(os.path.dirname(__file__))
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from orchestrator import run_pipeline
