@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "nl2app_deploy/nl2app/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "nl2app_deploy/nl2app/app.py"
+    }
+  ]
+}
